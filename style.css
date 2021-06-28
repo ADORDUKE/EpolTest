@@ -1,0 +1,76 @@
+input{
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+#number{
+    width: 275px;
+    height: 25px;
+}
+
+#converted{
+    width: 275px;
+    height: 25px;
+    margin-left: 40px;
+}
+
+input::placeholder{
+    font-size: 20px;
+}
+
+
+fieldset{
+    margin: 20px;
+    width: 250px;
+    height: 250px; 
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+    font-weight:lighter;
+    font-weight:lighter;
+
+}
+label{
+   font-size: 20px;
+}
+
+legend{
+    margin: 20px;
+}
+ 
+.box {
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+
+.routing{
+    width: 500px;
+    height: 150px;
+    margin-left: 60px;
+}
+
+
+
+
+textarea{
+    width: 277px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding-top:3px  ;
+    font-size: 20px;
+    resize: none; 
+    font-family: Arial;
+}
+
+
+.input-output{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+input[type="number"] {
+    font-size:20px;
+    font-family: Arial;
+}
+

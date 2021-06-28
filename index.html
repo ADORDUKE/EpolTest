@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title>
+</head>
+    <div class="input-output">
+        <div>
+            <input type="number" id="number"  placeholder="Number"  >
+        </div>
+       
+        <div><textarea class="output" placeholder="Converted"></textarea></div>
+    </div>
+   
+    <div class="box">
+    <!---Nai-->
+        <div class="child">
+            <fieldset>
+                <legend>NAI</legend>
+                <div>
+                    <input type="radio" id="National"   class="nai" name="rb1" checked >
+                    <label for="National">National</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="Unknown" class="nai" name="rb1" >
+                    <label for="Unknown">Unknown</label>
+                </div>
+                <div>
+                    <input type="radio" id="National Sighificant" class="nai"  name="rb1" >
+                    <label for="National Sighificant">National Significant</label>
+                </div>
+                <div>
+                    <input type="radio" id="International" class="nai" name="rb1" >
+                    <label for="International">Internaltional</label>
+                </div>
+            </fieldset>
+            <!----->
+
+            <!---Presentation-->
+            <fieldset class="Presentation">
+                <legend>Presentation</legend>
+                <div>
+                    <input type="radio" id="Allowed" checked class="presentation" name="rb3">
+                    <label for="Allowed">Allowed</label>
+                </div>
+                <div>
+                    <input type="radio" id="Restricted" class="presentation" name="rb3">
+                    <label for="Restricted">Restricted</label>
+                </div>
+                <div>
+                    <input type="radio" id="Not available" class="presentation" name="rb3">
+                    <label for="Not available">Not available</label>
+                </div>
+            </fieldset>
+            <!----->
+        </div>
+
+
+
+        <div class="child">
+
+            <!---Screening-->
+            <fieldset class="Screeningn">
+                <legend>Screening</legend>
+                <div>
+                    <input type="radio" id="Not Verified" checked class="screening" name="rb2">
+                    <label for="Not Verified">Not Verified</label>
+                </div>
+                <div>
+                    <input type="radio" id="Verified and passed" class="screening" name="rb2">
+                    <label for="Verified and passed">Verified and passed</label>
+                </div>
+                <div>
+                    <input type="radio" id="Verified and failed" class="screening" name="rb2">
+                    <label for="Verified and failed">Verified and failed</label>
+                </div>
+                <div>
+                    <input type="radio" id="Network provided" class="screening" name="rb2">
+                    <label for="Network provided">Network provided</label>
+                </div>
+            </fieldset>
+            <!----->
+            <!---Numbering Plan-->
+            <fieldset >
+                <legend>Numbering Plan</legend>
+                <div>
+                    <input type="radio" id="ISDN" checked  class="numplan" name="rb4">
+                    <label for="ISDN">ISDN</label>
+                </div>
+                <div>
+                    <input type="radio" id="Data" class="numplan" name="rb4">
+                    <label for="Data">Data</label>
+                </div>
+                <div>
+                    <input type="radio" id="Telex" class="numplan" name="rb4">
+                    <label for="Telex">Telex</label>
+                </div>
+            </fieldset>
+            <!----->
+        </div>
+    </div>
+
+    <div>
+        <!---Routing-->
+        <fieldset class="routing" >
+            <legend>Routing</legend>
+            <div>
+                <input type="radio" id="Allowed" checked class="roting" name="rb5">
+                <label for="Allowed">Allowed</label>
+            </div>
+            <div>
+                <input type="radio" id="Not allowed" class="roting" name="rb5">
+                <label for="Not allowed">Not allowed</label>
+            </div>
+        </fieldset>
+        <!----->
+    </div>
+
+<script src="action.js"></script>
+</body>
+</html>
